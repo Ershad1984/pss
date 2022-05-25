@@ -1,0 +1,40 @@
+
+/* Universal selector */
+* {
+    text-align: center;
+    background: rgb(15, 189, 44);
+}
+
+/* element */
+h1{
+    color: brown;
+}
+
+h2,p {
+    color: rgb(231, 55, 187);
+}
+
+p.italic{
+    font-size: 50px;s
+}
+
+/* class selector */
+.phone{
+   text-align: center;
+   background:red;
+}
+
+/*pseudo-element slector */
+
+ input::placeholder{
+    color: blue;
+}
+
+/* id selector */
+#M {
+    background-color: yellow;
+  };
+
+ p.italic{
+     font-size: 50px;
+ }
